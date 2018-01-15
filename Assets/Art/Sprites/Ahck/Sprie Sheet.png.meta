@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: 98d09170abdd6d743a71c08d3c6b745e
+timeCreated: 1507565950
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Attack_A_1
+    21300002: Attack_A_2
+    21300004: Attack_B_1
+    21300006: Attack_B_2
+    21300008: Attack_C_1
+    21300010: Attack_C_2
+    21300012: Cabeza
+    21300014: Torso
+    21300016: Torso
+    21300018: Shoulder_Front
+    21300020: Neck
+    21300022: Sword
+    21300024: Shoulder_Bacl
+    21300026: Shoulder_Back
+    21300028: Leg_Front
+    21300030: Leg_Front_Back
+    21300032: Arm_Sword
+    21300034: Leg_Bottom_Front
+    21300036: Leg_Bottom_Back
+    21300038: Foot_Front
+    21300040: Canon
+    21300042: Foot_Front
+    21300044: Foot_Back
+    21300046: Head
+    21300048: Sprie Sheet_11
+    21300050: UpperLeg_Front
+    21300052: UpperLeg_Back
+    21300054: BottomLeg_Front
+    21300056: BottomLeg_Back
+    21300058: Ahck_Slide
+    21300060: Attack_upper_c
+    21300062: Ahck_Broken_Hand
+    21300064: Control_Frame2
+    21300066: Control_Frame1
+    21300068: Ahck_Broken_antenna
+    21300070: Ahck_Broken_Antenna_2
+    21300072: Ahck_Hurt
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 29
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Attack_A_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 513
+        width: 257
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Attack_A_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 764
+        width: 260
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Attack_B_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 528
+        width: 255
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Attack_B_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 527
+        width: 249
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Attack_C_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 292
+        width: 244
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Attack_C_2
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 278
+        width: 198
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Head
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 155
+        width: 96
+        height: 109
+      alignment: 9
+      pivot: {x: 0.33177122, y: 0.20367053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Neck
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 218
+        width: 33
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Torso
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 189
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Shoulder_Front
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 214
+        width: 34
+        height: 42
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sword
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 169
+        width: 38
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprie Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 227
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Shoulder_Bacl
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 179
+        width: 43
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UpperLeg_Front
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 103
+        width: 29
+        height: 32
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UpperLeg_Back
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 102
+        width: 26
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arm_Sword
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 129
+        width: 102
+        height: 43
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BottomLeg_Front
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 34
+        width: 45
+        height: 65
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BottomLeg_Back
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 35
+        width: 38
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Canon
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 37
+        width: 134
+        height: 70
+      alignment: 9
+      pivot: {x: 0.34181464, y: 0.75486714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Foot_Front
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 7
+        width: 52
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Foot_Back
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 6
+        width: 53
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ahck_Slide
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 767
+        width: 300
+        height: 257
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Attack_upper_c
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 222
+        width: 305
+        height: 419
+      alignment: 9
+      pivot: {x: 0.40492284, y: 0.07478562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Control_Frame2
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 759
+        width: 274
+        height: 265
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Control_Frame1
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 5
+        width: 263
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ahck_Broken_Hand
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 569
+        width: 119
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ahck_Broken_antenna
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 490
+        width: 97
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ahck_Broken_Antenna_2
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 390
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ahck_Hurt
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 0
+        width: 163
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
