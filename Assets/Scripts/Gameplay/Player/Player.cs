@@ -39,6 +39,7 @@ public class Player : MonoBehaviour {
 	private bool m_FacingRight = true;
 	private bool m_Grounded = false;
 	private float m_GroundRadius = 0.3f;
+
 	// Use this for initialization
 	void Start () {
 		Init ();
@@ -55,7 +56,7 @@ public class Player : MonoBehaviour {
 		m_RigidBody2D = GetComponent<Rigidbody2D> ();
 		m_AhckWeapon.m_WeaponType = m_WeaponType;
 		m_Bullets.Init ();
-		m_Attacks.Init ();
+		//m_Attacks.Init ();
 
 	}
 
@@ -83,8 +84,6 @@ public class Player : MonoBehaviour {
 		Jump (jump);
 		m_RigidBody2D.velocity = new Vector2 (move * m_MovementVelocity, m_RigidBody2D.velocity.y);
 		m_AnimatorController.SetFloat ("Move", Mathf.Abs(move));
-
-
 
 		if (move > 0 && !m_FacingRight) {
 			Flip ();
