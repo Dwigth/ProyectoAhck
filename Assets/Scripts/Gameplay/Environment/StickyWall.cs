@@ -13,4 +13,8 @@ public class StickyWall : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	void OnTriggerStay2D(){
+		
+	}
 }

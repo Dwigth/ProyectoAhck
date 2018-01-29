@@ -5,7 +5,7 @@ using System;
 
 
 [Serializable]
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour  {
 	
 	[Header("Player settings")]
 	public float m_Life = 100f;
@@ -33,13 +33,12 @@ public class Player : MonoBehaviour {
 	private int m_AreaAffectedRange;
 	private float m_Stamina;
 	private int m_MovementVelocity = 50;
-	private float m_JumpForce = 1000f;
+	private float m_JumpForce = 2000f;
 	private Animator m_AnimatorController;
 	private Rigidbody2D m_RigidBody2D;
 	private bool m_FacingRight = true;
 	private bool m_Grounded = false;
 	private float m_GroundRadius = 0.3f;
-
 	// Use this for initialization
 	void Start () {
 		Init ();
@@ -48,7 +47,6 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		OnUpdate ();
-
 	}
 
 	private void Init(){
@@ -56,6 +54,7 @@ public class Player : MonoBehaviour {
 		m_RigidBody2D = GetComponent<Rigidbody2D> ();
 		m_AhckWeapon.m_WeaponType = m_WeaponType;
 		m_Bullets.Init ();
+
 		//m_Attacks.Init ();
 
 	}
@@ -95,16 +94,38 @@ public class Player : MonoBehaviour {
 	}
 
 	private void Jump(bool jump){
-		
+		//se reestablece la escala de la gravedad cada que salta.
+		m_RigidBody2D.gravityScale = 10;
+		//Se obtiene el estado de su posición si está en el suelo o no.
 		m_Grounded = Physics2D.OverlapCircle (m_GroundCheck.position, m_GroundRadius, m_WhatIsGround);
+		//Se mandan los resultados al animator
 		m_AnimatorController.SetBool ("Grounded", m_Grounded);
 		m_AnimatorController.SetFloat ("vSpeed", m_RigidBody2D.velocity.y);
 
+		//Si no está en el suelo 
+		if (!m_Grounded) {
+			/**
+			Si su velocidad en el eje "y" es mayor a cero que se incremente la escala de la gravedad
+			**/
+			if (m_RigidBody2D.velocity.y < 0) {
+				m_RigidBody2D.gravityScale += (m_RigidBody2D.velocity.y * -1) / 3;
+
+				if (m_RigidBody2D.gravityScale > 215) {
+					m_RigidBody2D.gravityScale = 215;
+				}
+			}
+		}
+
+
 		if (m_Grounded && jump) {
 			m_AnimatorController.SetBool ("Grounded", false);
-			m_RigidBody2D.AddForce(new Vector2(0,m_JumpForce));
+			m_RigidBody2D.AddForce (new Vector2 (0, m_JumpForce));
+
 		}
+
 	}
+
+
 
 	private void PrimaryAttack(bool attack){
 		
@@ -192,6 +213,5 @@ public class Player : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(){
-		Debug.Log ("Auch");
 	}
 }

@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\Gameplay\Manager\GameManager_.cs" />
      <Compile Include="Assets\Scripts\Gameplay\Manager\InventoryManager.cs" />
      <Compile Include="Assets\Scripts\Gameplay\Player\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\Player\PhysicsObject.cs" />
      <Compile Include="Assets\Scripts\Gameplay\Player\Player.cs" />
      <Compile Include="Assets\Scripts\Gameplay\Utilities\PooledObject.cs" />
      <Compile Include="Assets\Scripts\GUI\Menu\ManagerMenu.cs" />
