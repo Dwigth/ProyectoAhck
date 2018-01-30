@@ -103,10 +103,10 @@ public class Enemy : MonoBehaviour {
 		if (transform.position == Posiciones [4]) 
 		{ 	//Si el enemigo no encunetra de nuevo al jugdor, buscara en las ultimas posiciones y al final regresara al IDLE
 			m_EnemySpeed= .2f;
-			for (int contador = 0; contador < 11; contador += Time.deltaTime) 
+			for (int contador = 0; contador < 11; contador += (int)Time.deltaTime) 
 			{
 				Debug.Log(contador);
-				if (contador = 10)
+				if (contador == 10)
 				{
 					transform.position = Vector3.MoveTowards (transform.position, Posiciones [3], m_EnemySpeed);
 				}
