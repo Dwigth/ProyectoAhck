@@ -40,13 +40,31 @@ public class Player : MonoBehaviour  {
 	private bool m_Grounded = false;
 	private float m_GroundRadius = 0.3f;
 	// Use this for initialization
+
+	//Climbing parameters
+	[Header("Climbing Parameters")]
+	public bool onWall;
+	public float climbSpeed = 10f;
+	public float climbVelocity;
+	public float gravityStore;
+
+	//
 	void Start () {
 		Init ();
+		gravityStore = m_RigidBody2D.gravityScale;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		OnUpdate ();
+		if (onWall) {
+			m_RigidBody2D.gravityScale = 0f;
+			climbVelocity = climbSpeed * Input.GetAxisRaw ("Vertical");
+			m_RigidBody2D.velocity = new Vector2 (m_RigidBody2D.velocity.x, climbVelocity);
+		} else {
+			m_RigidBody2D.gravityScale = gravityStore;
+		}
+
 	}
 
 	private void Init(){

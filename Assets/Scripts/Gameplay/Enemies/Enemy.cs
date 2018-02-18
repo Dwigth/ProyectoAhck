@@ -116,7 +116,7 @@ public class Enemy : MonoBehaviour {
 		}
 	}
 		
-	void OnTriggerEnter (Collider2D Entrada)
+	void OnTriggerEnter2D (Collider2D Entrada)
 	{
 		Posiciones [3] = Entrada.transform.position;
 	}
