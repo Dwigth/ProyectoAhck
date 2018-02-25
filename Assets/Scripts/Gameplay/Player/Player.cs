@@ -43,28 +43,18 @@ public class Player : MonoBehaviour  {
 
 	//Climbing parameters
 	[Header("Climbing Parameters")]
-	public bool onWall;
+	public bool onWall = false;
 	public float climbSpeed = 10f;
-	public float climbVelocity;
-	public float gravityStore;
+	private float climbVelocity;
 
 	//
 	void Start () {
 		Init ();
-		gravityStore = m_RigidBody2D.gravityScale;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		OnUpdate ();
-		if (onWall) {
-			m_RigidBody2D.gravityScale = 0f;
-			climbVelocity = climbSpeed * Input.GetAxisRaw ("Vertical");
-			m_RigidBody2D.velocity = new Vector2 (m_RigidBody2D.velocity.x, climbVelocity);
-		} else {
-			m_RigidBody2D.gravityScale = gravityStore;
-		}
-
 	}
 
 	private void Init(){
@@ -72,6 +62,7 @@ public class Player : MonoBehaviour  {
 		m_RigidBody2D = GetComponent<Rigidbody2D> ();
 		m_AhckWeapon.m_WeaponType = m_WeaponType;
 		m_Bullets.Init ();
+
 
 		//m_Attacks.Init ();
 
@@ -94,6 +85,12 @@ public class Player : MonoBehaviour  {
 			RotateCanon (mousePos);
 			Shoot (shoot,mousePos);
 		}
+		if (onWall) {
+			m_RigidBody2D.gravityScale = 0f;
+			climbVelocity = climbSpeed * Input.GetAxisRaw ("Vertical");
+			m_RigidBody2D.velocity = new Vector2 (m_RigidBody2D.velocity.x, climbVelocity);
+		}
+
 	}
 
 	private void Move(float move, bool jump){
@@ -140,6 +137,8 @@ public class Player : MonoBehaviour  {
 			m_RigidBody2D.AddForce (new Vector2 (0, m_JumpForce));
 
 		}
+
+
 
 	}
 
