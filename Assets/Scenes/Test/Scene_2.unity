@@ -4532,8 +4532,6 @@ MonoBehaviour:
     m_AmountCount: 0
   onWall: 0
   climbSpeed: 12
-  climbVelocity: 0
-  gravityStore: 0
 --- !u!50 &1786543435
 Rigidbody2D:
   serializedVersion: 4
