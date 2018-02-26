@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: Idle
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: Bones/IK_Torso
+    localPosition: {x: -0.16862488, y: -0.102303505, z: -0.010000229}
+    localRotation: {x: -0, y: -0, z: 0.69533116, w: 0.7186895}
+    localScale: {x: 0.7539498, y: 1, z: 1}
+  - path: Bones/IK_Torso/IK_Cuello
+    localPosition: {x: 1.0000008, y: 0, z: -0.10000038}
+    localRotation: {x: 0, y: 0, z: -0.211741, w: 0.97732586}
+    localScale: {x: 1.0203626, y: 1, z: 1}
+  - path: Bones/IK_Torso/IK_Cuello/IK_Cabeza
+    localPosition: {x: 0.40000132, y: -0.0000038640574, z: -0.2}
+    localRotation: {x: 0, y: 0, z: 0.20840646, w: 0.9780423}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/IK_Torso/IK_Cuello/IK_Cabeza/Accesorio_Bone
+    localPosition: {x: 0.9999995, y: 0.0000010626536, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.14855811, w: 0.9889037}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/IK_Torso/IK_Sword_Arm
+    localPosition: {x: 0.8916111, y: -0.1552192, z: 0.1}
+    localRotation: {x: 0, y: 0, z: -0.92290425, w: 0.38502946}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/IK_Torso/IK_Sword_Arm/IK_Sword_Barm
+    localPosition: {x: 0.7586937, y: 0.000000059604645, z: 0.2}
+    localRotation: {x: 0, y: 0, z: 0.38182148, w: 0.92423606}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/IK_Torso/IK_Sword_Arm/IK_Sword_Barm/IK_Hand
+    localPosition: {x: 0.645877, y: -0.000000022351742, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.13861065, w: 0.99034697}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/IK_Torso/IK_Sword_Arm/IK_Sword_Barm/IK_Hand/IK_Sword
+    localPosition: {x: 0.34158176, y: -0.25100133, z: -0.000000044703484}
+    localRotation: {x: 0, y: 0, z: 0.59196186, w: 0.805966}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/IK_Torso/IK_Canon_Arm
+    localPosition: {x: 0.9248261, y: 0.3071792, z: -0.1}
+    localRotation: {x: 0, y: 0, z: 0.9766589, w: 0.21479656}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/IK_Torso/IK_Canon_Arm/Canon_Bone
+    localPosition: {x: 0.6944911, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.7974438, w: 0.6033932}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/IK_Torso/IK_Right_Leg
+    localPosition: {x: -0.037461787, y: -0.11165054, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.91712224, w: 0.3986061}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/IK_Torso/IK_Right_Leg/IK_Right_Foot
+    localPosition: {x: 0.6999991, y: -0.0000030994415, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.46624666, w: 0.88465476}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/IK_Torso/IK_Left_Leg
+    localPosition: {x: 0.029915592, y: 0.17256153, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.99833065, w: -0.05775709}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/IK_Torso/IK_Left_Leg/IK_Left_Feet
+    localPosition: {x: 0.7438245, y: 0, z: -0.00000022910535}
+    localRotation: {x: 0, y: 0, z: -0.23026635, w: 0.97312766}
+    localScale: {x: 1, y: 1, z: 1}
