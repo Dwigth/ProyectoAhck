@@ -1,0 +1,683 @@
+fileFormatVersion: 2
+guid: ea4993979ca182c49a219ee52e88578d
+timeCreated: 1521664178
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Left_Leg_1
+    21300002: Right_Leg_1
+    21300004: Head_Idle
+    21300006: Head_Front
+    21300008: Head_Action
+    21300010: Head_Back
+    21300012: Left_Leg_2
+    21300014: Right_Leg_2
+    21300016: Side_Neck
+    21300018: Front_Neck
+    21300020: R_Arm_Up
+    21300022: Torso_Back
+    21300024: Foot_Back
+    21300026: L_Arm_Front
+    21300028: Ahck_Body_Newspritesheet_14
+    21300030: Torso_Side
+    21300032: Torso_Front
+    21300034: Torso_Idle
+    21300036: L_Arm_idle
+    21300038: R_Arm_Idle
+    21300040: Ahck_Body_Newspritesheet_20
+    21300042: Ahck_Body_Newspritesheet_21
+    21300044: R_Hand_IDle
+    21300046: R_Arm_Lside
+    21300048: Ahck_Body_Newspritesheet_24
+    21300050: Foot_Front
+    21300052: R_Arm_Front
+    21300054: R_Hand_Front
+    21300056: Ahck_Body_Newspritesheet_28
+    21300058: Leg_Side
+    21300060: R_Arm_Action
+    21300062: R_Hand_SideFront
+    21300064: R_Arm_LBackSwing
+    21300066: Leg_Action
+    21300068: R_Hand_BackSwing
+    21300070: Ahck_Body_Newspritesheet_35
+    21300072: Ahck_Body_Newspritesheet_36
+    21300074: Ahck_Head_Damage
+    21300076: Ahck_Canon
+    21300078: Leg_SideB
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Left_Leg_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1572.1262
+        width: 109.684296
+        height: 165.80444
+      alignment: 9
+      pivot: {x: 0.50143915, y: 0.4877661}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Right_Leg_1
+      rect:
+        serializedVersion: 2
+        x: 129.87093
+        y: 1579.5021
+        width: 112.468475
+        height: 152.74353
+      alignment: 9
+      pivot: {x: 0.4946194, y: 0.50082594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Head_Idle
+      rect:
+        serializedVersion: 2
+        x: 328.0354
+        y: 1364.812
+        width: 389.56677
+        height: 376.2339
+      alignment: 9
+      pivot: {x: 0.48506346, y: 0.50417536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Head_Front
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1323.8525
+        width: 445.54834
+        height: 415.92273
+      alignment: 9
+      pivot: {x: 0.49938467, y: 0.4992453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Head_Action
+      rect:
+        serializedVersion: 2
+        x: 1202.7107
+        y: 1307.5375
+        width: 390.01807
+        height: 433.89734
+      alignment: 9
+      pivot: {x: 0.49943694, y: 0.49772695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Head_Back
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1316.8533
+        width: 434
+        height: 414.9027
+      alignment: 9
+      pivot: {x: 0.5057601, y: 0.49926582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Left_Leg_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1403.8436
+        width: 121.28223
+        height: 174.20496
+      alignment: 9
+      pivot: {x: 0.47822344, y: 0.49743852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Right_Leg_2
+      rect:
+        serializedVersion: 2
+        x: 153.02002
+        y: 1413.8424
+        width: 142.60257
+        height: 164.00598
+      alignment: 9
+      pivot: {x: 0.49073434, y: 0.49789324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Side_Neck
+      rect:
+        serializedVersion: 2
+        x: 26.023422
+        y: 1239.2336
+        width: 123.86725
+        height: 150.36316
+      alignment: 9
+      pivot: {x: 0.54878575, y: 0.50721437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Front_Neck
+      rect:
+        serializedVersion: 2
+        x: 204.02002
+        y: 1253.8602
+        width: 140.5625
+        height: 127.289185
+      alignment: 9
+      pivot: {x: 0.49074242, y: 0.49996212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: R_Arm_Up
+      rect:
+        serializedVersion: 2
+        x: 738.20886
+        y: 1133.0405
+        width: 239.23285
+        height: 162.80774
+      alignment: 9
+      pivot: {x: 0.5070004, y: 0.50034153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Torso_Back
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1031.8849
+        width: 175.24316
+        height: 237.43921
+      alignment: 9
+      pivot: {x: 0.49930623, y: 0.4995599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Foot_Back
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 844.9057
+        width: 182.3833
+        height: 367.98712
+      alignment: 9
+      pivot: {x: 0.4989492, y: 0.49891502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: L_Arm_Front
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1133.8735
+        width: 114.04199
+        height: 126.26929
+      alignment: 9
+      pivot: {x: 0.49543208, y: 0.49597546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ahck_Body_Newspritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1137
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Torso_Side
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1014.8868
+        width: 123.22217
+        height: 240.49884
+      alignment: 9
+      pivot: {x: 0.4950408, y: 0.49735516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Torso_Front
+      rect:
+        serializedVersion: 2
+        x: 1622.5663
+        y: 1016.4502
+        width: 163.2201
+        height: 236.28235
+      alignment: 9
+      pivot: {x: 0.51423645, y: 0.50172937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Torso_Idle
+      rect:
+        serializedVersion: 2
+        x: 1864.2358
+        y: 1021.5581
+        width: 152.6731
+        height: 240.76135
+      alignment: 9
+      pivot: {x: 0.5093508, y: 0.49402404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: L_Arm_idle
+      rect:
+        serializedVersion: 2
+        x: 526.6598
+        y: 936.22723
+        width: 127.84296
+        height: 154.80255
+      alignment: 9
+      pivot: {x: 0.4954533, y: 0.5023998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: R_Arm_Idle
+      rect:
+        serializedVersion: 2
+        x: 776.3677
+        y: 944.89465
+        width: 194.2959
+        height: 157.52087
+      alignment: 9
+      pivot: {x: 0.489626, y: 0.5053638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ahck_Body_Newspritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1081
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ahck_Body_Newspritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 932
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: R_Hand_IDle
+      rect:
+        serializedVersion: 2
+        x: 721.0776
+        y: 739.8582
+        width: 434.6634
+        height: 208.85077
+      alignment: 9
+      pivot: {x: 0.4990584, y: 0.5034305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: R_Arm_Lside
+      rect:
+        serializedVersion: 2
+        x: 1251.2288
+        y: 729.3081
+        width: 460.39087
+        height: 189.77783
+      alignment: 9
+      pivot: {x: 0.49832, y: 0.49682534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Foot_Front
+      rect:
+        serializedVersion: 2
+        x: 33.421715
+        y: 397.1376
+        width: 179.14355
+        height: 379.0168
+      alignment: 9
+      pivot: {x: 0.5000363, y: 0.49433798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: R_Arm_Front
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 597.9331
+        width: 175.2431
+        height: 150.74707
+      alignment: 9
+      pivot: {x: 0.49645287, y: 0.49796626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: R_Hand_Front
+      rect:
+        serializedVersion: 2
+        x: 769.04297
+        y: 589.0194
+        width: 184.78534
+        height: 149.70691
+      alignment: 9
+      pivot: {x: 0.4976421, y: 0.5108692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ahck_Body_Newspritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 737
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Leg_Side
+      rect:
+        serializedVersion: 2
+        x: 248.67456
+        y: 415.64468
+        width: 226.50781
+        height: 321.42056
+      alignment: 9
+      pivot: {x: 0.50252324, y: 0.5066736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: R_Arm_Action
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 328.96292
+        width: 198.70361
+        height: 175.2248
+      alignment: 9
+      pivot: {x: 0.4982295, y: 0.49671668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: R_Hand_SideFront
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 392.9558
+        width: 334.3662
+        height: 159.92627
+      alignment: 9
+      pivot: {x: 0.49945238, y: 0.4973802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: R_Arm_LBackSwing
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 493.9446
+        width: 321.10596
+        height: 191.5433
+      alignment: 9
+      pivot: {x: 0.5213248, y: 0.49774867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Leg_Action
+      rect:
+        serializedVersion: 2
+        x: 33.999996
+        y: 149.98279
+        width: 214.0039
+        height: 195.62296
+      alignment: 9
+      pivot: {x: 0.49765447, y: 0.49593982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: R_Hand_BackSwing
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 155.00226
+        width: 403.72754
+        height: 182.36417
+      alignment: 9
+      pivot: {x: 0.49786067, y: 0.49350554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ahck_Body_Newspritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 23
+        width: 19
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ahck_Body_Newspritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 24
+        width: 34
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ahck_Head_Damage
+      rect:
+        serializedVersion: 2
+        x: 1191.2888
+        y: 100.30425
+        width: 390.00024
+        height: 377.10428
+      alignment: 9
+      pivot: {x: 0.44277066, y: 0.21919973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ahck_Canon
+      rect:
+        serializedVersion: 2
+        x: 1501.4685
+        y: 427.88138
+        width: 566.53955
+        height: 303.37643
+      alignment: 9
+      pivot: {x: 0.5031096, y: 0.4997704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Leg_SideB
+      rect:
+        serializedVersion: 2
+        x: 268.68997
+        y: 856.5549
+        width: 226.77292
+        height: 319.44562
+      alignment: 9
+      pivot: {x: 0.49745828, y: 0.49600035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 99723253906895
+  assetBundleName: 
+  assetBundleVariant: 
